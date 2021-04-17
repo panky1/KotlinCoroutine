@@ -9,6 +9,7 @@ import com.mindorks.example.coroutines.learn.errorhandling.supervisor.IgnoreErro
 import com.mindorks.example.coroutines.learn.errorhandling.trycatch.TryCatchActivity
 import com.mindorks.example.coroutines.learn.retrofit.parallel.ParallelNetworkCallsActivity
 import com.mindorks.example.coroutines.learn.retrofit.series.SeriesNetworkCallsActivity
+import com.mindorks.example.coroutines.learn.retrofit.single.AuthLoginActivity
 import com.mindorks.example.coroutines.learn.retrofit.single.SingleNetworkCallActivity
 import com.mindorks.example.coroutines.learn.room.RoomDBActivity
 import com.mindorks.example.coroutines.learn.task.onetask.LongRunningTaskActivity
@@ -63,7 +64,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickOfLoginAuth(view: View) {
-        startActivity(Intent(this@MainActivity,AuthLoginActivity::class.java))
+        startActivity(Intent(this@MainActivity, AuthLoginActivity::class.java))
     }
 
 }

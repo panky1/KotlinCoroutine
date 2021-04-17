@@ -49,7 +49,7 @@
             android:name=".learn.task.twotasks.TwoLongRunningTasksActivity"
             android:label="@string/two_long_running_tasks" />
         <activity
-            android:name=".AuthLoginActivity"
+            android:name=".learn.retrofit.single.AuthLoginActivity"
             android:label="@string/authenticate_login" />
     </application>
 
